@@ -55,7 +55,7 @@
              <table>
                 <tr>
                   <td>
-                       Name :
+                       wonderhacks :
                   </td>
                   <td>
                        <input type="text" width="100px" height="50px"placeholder="name" name="" required>
@@ -63,7 +63,7 @@
                 </tr>
                   <tr>
                   <td>
-                      password :
+                      subscribe to my channel:
                   </td>
                   <td>
                       <input type="password" placeholder="password" autocomplete="new-password" name="" required>
