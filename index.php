@@ -55,7 +55,7 @@
              <table>
                 <tr>
                   <td>
-                       Name :
+                       wonderhacks. please subscribe :
                   </td>
                   <td>
                        <input type="text" width="100px" height="50px"placeholder="name" name="" required>
