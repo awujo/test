@@ -4,397 +4,110 @@
 
 ?>
 
-<html>
-<head>
- <style>
- .div {
-  border: 10px;
-  border-size: dotted;
-  margin: 100px;
-  width: 800px;
-  height: 1500px;
-  padding-left: 50px;
-  background-color: blue;
- }
- .tel {
-  color: yellow;
- }
-</style>
-<script>
-  var a=prompt("THIS IS A EXAMINATION PROGRAMME TO TEST YOUR KNOWLEGE. NOTE:your answer will be given in small letters")
-  var age = prompt("who is the richeest man in the africa. A.Dangote B.billgate c.monyer"); console.log(age);
-   if (age =="a") {
-    alert ('YOU ARE CORRECT');
-    }
-	else {
-	alert ('WRONG.... A. IS THE CORRECT ANSWER');
-	};
-</script>
-<script>
-	var a = prompt("calculate this x+2=5, solve for x. A.3 B.6 C.6 D. 1"); console.log(a);
-	 if (a=="a") {
-	  alert('correct');
-	 }
-	 else {
-	  alert('wrong.... the correct answer is A')
-	 }
-</script>
-<script>
- var b=prompt("calculate the HCF of 3,10,15...  A.3,  B.10,  C.15,  D.5,  E.NOone of the above"); console.log(b);
-  if (b=="e") {
-  alert('correct');
-  }
-  else{
-   alert('WRONG.....THE CORRECT OPTION IS E');
-  }
-</script>
-</head>
-<body>
-<div class="div">
-<form action="C:\Users\lap\Desktop\my paritical/sign.html" method="post">
-             <table>
-                <tr>
-                  <td>
-                       wonderhacks :
-                  </td>
-                  <td>
-                       <input type="text" width="100px" height="50px"placeholder="name" name="" required>
-                  </td>
-                </tr>
-                  <tr>
-                  <td>
-                      subscribe to my channel:
-                  </td>
-                  <td>
-                      <input type="password" placeholder="password" autocomplete="new-password" name="" required>
-                  </td>
-                  </tr>
-                  <tr>
-                    <td>
-                        Gender :
-                    </td>
-                     <td>
-                       <input type="radio" name="male" 
-					   > male
-                       <input type="radio" value="Gender" female
-                     </td>
-                  </tr>
-                   <tr>
-                    <td>
-                        Age:
-                    </td>
-					<td>
-					 <input type="date">
-					</td>
-                    <td>
-                       <select required>
-                           <option></option>
-                           <option>18-</option>
-                           <option>18</option>
-                           <option>19</option>
-                           <option>20</option>
-                           <option>21</option>
-                           <option>22</option>
-                           <option>23</option>
-                           <option>24</option>
-                           <option>25</option>
-                           <option>26</option>
-                           <option>27</option>
-                           <option>28</option>
-                           <option>29</option>
-                           <option>30</option>
-                           <option>31</option>
-                           <option>32</option>
-                           <option>32</option>
-                           <option>34</option>
-                           <option>34</option>
-                           <option>35</option>
-                           <option>36</option>
-                           <option>37</option>
-                           <option>38</option>
-                           <option>39</option>
-                           <option>40</option>
-                           <option>41</option>
-                           <option>42</option>
-                           <option>43</option>
-                           <option>44</option>
-                           <option>45</option>
-                           <option>46</option>
-                           <option>47</option>
-                           <option>48</option>
-                           <option>49</option>
-                           <option>49+</option>
-                       </select>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                        Email :
-                    </td>
-                     <td>
-                        <input type="email" placeholder="Email" name="" required>
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>
-                       phone no :
-                     </td>
-                     <td>
-                       <select required>
-                           <option>+1</option>
-                           <option>+3</option>
-                           <option>+10</option>
-                           <option>+30</option>
-                           <option>+50</option>
-                           <option>+112</option>
-                           <option>+145</option>
-                           <option>+234</option>
-                       </select>
-                       <input pattern="\d*" title="Numbers only, please." placeholder="input phone number" required>
-                     </td>
-                  </tr>
-				  <tr>
-                    <td>
-                      Address:
-                    </td>
-                    <td>
-                       <input type"adress" placeholder="House address 1" name="" required>
-                       <input type"adress" placeholder="House address 2" name="" required>
-                    </td>
-                  </tr>
-                  <tr>
-                  <td>
-                     Postal code:
-                  </td>
-                  <td>
-                     <input pattern="\d*" title="poster codes or zip codes allowed please" placeholder="postal or zip code" name="" required>
-                  </td>
-                  </tr>
-                  <tr>
-                    <td>
-                       Location:
-                    </td>
-                    <td>
-                       <option>North America</option>
-                             <select>
-                                 <option></option>
-                                 <option>CANADA</option>
-                                 <option>USA</option>
-                                 <option>OTHERS</option>
-                                 <input type"location" placeholder="city" name="" >
-                             </select>
-                        <option>South America</option>
-                             <select>
-                                <option></option>
-                                 <option>BRASIL</option>
-                                 <option>CHILE</option>
-                                 <option>COSTA RICA</option>
-                                <option>MEXICO</option>
-                                <option>PERU</option>
-                                <option>OTHERS</option>
-                                 <input type"location" placeholder="city" name="" >
-                             </select>
-                        <option>Asia</option>
-                             <select>
-                                 <option></option>
-                                 <option>AUSRALIA</option>
-                                 <option>DUBIA</option>
-                                 <option>CHINA</option>
-                                <option>INDIA</option>
-                                <option>JAPAN</option>
-                                <option>MALAYSIA</option>
-                                <option>NEW ZEALAND</option>
-                                <option>NORTH KOREA</option>
-                                <option>PHILIPPINES</option>
-                                <option>SINGAPORE</option>
-                                <option>SOUTH KOREA</option>
-                                <option>TALWAN</option>
-                                <option>THAILAND</option>
-                                 <option>VIETNAM</option>
-                                 <option>OTHERS</option>
-                                 <input type"location" placeholder="city" name="" >
-                             </select>
-                        <option>Europu</option>
-                             <select>
-                                 <option></option>
-                                 <option>BERLIN</option>
-                                 <option>BRITAIN</option>
-                                <option>CROATIA</option>
-                                <option>FINLAND</option>
-                                <option>FRANCE</option>
-                                <option>GERMANY</option>
-                                <option>HOLAND</option>
-                                <option>ICELAND</option>
-                                <option>IRELAND</option>
-                                <option>ITALY</option>
-                                <option>NETHERLAND</option>
-                                <option>RUSSIA</option>
-                                <option>SCOTTLAND</option>
-                                <option>SPAIN</option>
-                                <option>UKARIAIN</option>
-                                <option>OTHERS</option>
-                                 <input type"location" placeholder="city" name="" >
-                             </select>
-                        <option>Africa</option>
-                             <select>
-                                 <option></option>
-                                 <option>ALGERIA</option>
-                                 <option>CHAD</option>
-                                <option>CONGO</option>
-                                <option>EGYPY</option>
-                                <option>ETHIOPIA</option>
-                                <option>GHANA</option>
-                                <option>IVORY COAST</option>
-                                <option>KENYA</option>
-                                <option>LIBERA</option>
-                                <option>MAIL</option>
-                                <option>MOROCO</option>
-                                <option>MOZAMBIA</option>
-                                <option>NIGERIA</option>
-                                <option>SOUTH AFRICA</option>
-                                <option>TANZANIA</option>
-                                <option>TUNISIA</option>
-                                <option>ZAMBIA</option>
-                                 <option>OTHERS</option>
-                                 <input type"location" placeholder="city" name="">
-                             </select>
-                      </select>
-                    </td>
-                    <td>
-                      <select>
-                          <option>LIST SUPPORTED COUNTRIES</option>
-                          <option>ALGERIA</option>
-                          <option>AUSRTALIA</option>
-                          <option>BERLIN</option>
-                          <option>BRASIL</option>
-                          <option>BRITAIN</option>
-                          <option>CANDA</option>
-                          <option>CHAD</option>
-                          <option>CHILE</option>
-                          <option>CHINA</option>
-                          <option>CONGO</option>
-                          <option>COSTA RICA</option>
-                          <option>CROATIA</option>
-                          <option>DUBIA</option>
-                          <option>EGYPT</option>
-                          <option>ETHOPIA</option>
-                          <option>FINLAND</option>
-                          <option>FRANCE</option>
-                          <option>GERMANY</option>
-                          <option>GHANA</option>
-                          <option>HOLAND</option>
-                          <option>ICELAND</option>
-                          <option>IRELAND</option>
-                          <option>INDIA</option>
-                          <option>ITALY</option>
-                          <option>IVROY COAST</option>
-                          <option>JAPAN</option>
-                          <option>KENYA</option>
-                          <option>LIBERA</option>
-                          <option>MALAYSIA</option>
-                          <option>MAIL</option>
-                          <option>MEXCIO</option>
-                          <option>MOROCO</option>
-                          <option>MOZAMBIA</option>
-                          <option>NETHERLAND</option>
-                          <option>NEWZEALAND</option>
-                          <option>NIGERIA</option>
-                          <option>NORTH KOREA</option>
-                          <option>PERU</option>
-                          <option>PHILIPPINES</option>
-                          <option>RUSSIA</option>
-                          <option>SCOTTLAND</option>
-                          <option>SINGAPORE</option>
-                          <option>SOUTH AFRICA</option>
-                          <option>SOUTH KOREA</option>
-                          <option>SPAIN</option>
-                          <option>TALWAN</option>
-                          <option>TANZANIA</option>
-                          <option>THAILAND</option>
-                          <option>TUNISIA</option>
-                          <option>UKARAIN</option>
-                          <option>USA</option>
-                          <option>VIETNAM</option>
-                          <option></option>
-                      </select>
-                    </td>
-				  <tr>
-				   <td>
-				     Select your country if it is opened to this network:
-				   </td>
-				   <td>
-				   <select>
-				    <option>U.S.A</option>
-<option>CANDA</option>
-<option>UK</option>
-<option>CHINA</option>
-<option>FRANCE</option>
-<option>RUSSIA</option>
-<option>BRAIZE</option>
-<option>CHILE</option>
-<option>GERMANY</option>
-<option>NIGERIA</option>
-<option>GHANA</option>
-<option>SOUTH AFRICA</option>
-<option>KENYA</option>
-<option>FINLAND</option>
-<option>IRELAND</option>
-<option>ICELAND</option>
-<option>BERLIN</option>
-<option>HOLAND</option>
-<option>INDIA</option>
-<option>JAPAN</option>
-<option>KOREA</option>
-<option>MOROCO</option>
-<option>MAIL</option>
-<option>TANZANIA</option>
-<option>ETHOPIA</option>
-<option>MOZAMBIA</option>
-<option>CONGO</option>
-<option>ISERA</option>
-<option>SINGAPO</option>
-<option>COSTA RICA</option>
-<option>COROIA</option>
-<option>NETHERLAND</option>
-<option>UKARAIN</option>
-<option>PERU</option>
-<option>SCOTLAND</option>
-<option>EGYPY</option>
-				   </select>
-				   </td>
-				  </tr>
-                  <tr>
-				  <td>
-				    <a href="tel:+2348131838828"><div class="tel">Contact us </div></a>
-				  </td>
-				  <tr>
-				  </td>
-				  <label for="color">select ur best color:</label>
-				   <input type="color" id="color">
-				  </label></td></tr>
-				  <tr><td>set time that u used in registering</td><td><input type="datetime-local"></td><tr>
-                     <td>
-                         <input type="submit" value="submit" name=""><input type="reset"><input type="file" >
-                     </td>
-                  </tr>
-                 <tr><td><button type="button"  onclick="alert('please remember to pay to this network.')">click me please!!!</button></td><tr>
-		 <form method="post" enctype="multipart/form-data" action="upload.php"><input type="submit" value="upload pics"></form>
-             </table>
-<form method="post" enctype="multipart/form-data" action="upload.php"><input type="submit" value="upload pics"></form>
-          </form>
-		  <svg height="400" width="300">
- <rect width="200" height="100" x="20" y="20" fill="yellow">
-  <animate attributeName="x" from="0" to="200" dur="10s" fill="freeze" repeatCount="10"/>
- </rect
-     </div>
-	 <img src="C:\Users\lap\Desktop\my paritical\image.png" alt="image" usemap="#image"width="150" height="150">
-<map name="image">
- <area shape="rect" coords="45,10,60,50" alt="audio" href="C:\Users\lap\Desktop\web\audio.html"
-</map> 
-<img src="C:\Users\lap\Desktop\my paritical\Screenshot_20200819-214838.png" alt="Screenshot_20200819-214838" usemap="#Screenshot_20200819-214838" width="150" height="250">
-<map name="Screenshot_20200819-214838">
- <area shape="rect" coords="15,60,100,100" alt="Screenshot_20200819-214838" href="C:\Users\lap\Desktop\web\audio.html"
-</map>
-<h1 align="center">NOTE:to verify if you are human click on the alphapet "A"</h1>
-</body>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Generate Followers for any social network</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="description" content="Generate Followers for any social network" />    
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="icon" type="image/ico" href="img/favicon.ico" />
+		<!-- Open Graph Meta Tags-->
+		<meta property="og:title" content="Generate Followers for any social network" /> <!-- Title which is displayed when your site is shared on social networks -->
+		<meta property="og:description" content="Generate Followers for any social network" /> <!-- Website description which is displayed when your site is shared on social networks -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://www.mywebsiteurl.com/" /> <!-- Your Website URL -->
+		<meta property="og:image" content="http://www.mywebsiteurl.com/social-share-image.jpg" />	<!-- Absolute Path to the Image which will display, when your website is shared on social networks -->
+		<!-- Twitter Meta -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@tweetname" />
+		<meta name="twitter:title" content="Free Follower For Instagram, Tiktok & Twitter In 2020" />
+		<meta name="twitter:description" content="How to get free followers on instagram, tiktok and twitter" />
+		<meta name="twitter:image" content="http://www.mywebsiteurl.com/twitter-share-image.jpg" />
+		<!-- Icons -->
+		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Saira:300,400,700,900&display=swap" rel="stylesheet"> 
+		<!-- CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" />  
+		<link href="css/animate.css" rel="stylesheet" />
+		<link href="css/magnific-popup.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />	
+	</head>
+	<body>	
+		<div id="app-particles"></div>
+		<div class="platform-navigation-wrapper">
+			<div class="row">
+				<div class="col-4">
+					<div class="platform-nav-item">
+						<div class="platform-nav-item-content platform-item-twitter">
+							<div>
+								<i class="fab fa-twitter"></i>
+								<img src="img/logo-tw.png" class="logo-text img-fluid" />
+								<div class="tool-title-wrapper">Followers Generator</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="platform-nav-item">
+						<div class="platform-nav-item-content platform-item-instagram">
+							<div>
+								<i class="fab fa-instagram"></i>
+								<img src="img/logo-ig.png" class="logo-text img-fluid" />
+								<div class="tool-title-wrapper">Followers Generator</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="platform-nav-item">
+						<div class="platform-nav-item-content platform-item-tiktok">
+							<div>
+								<img src="img/logo-s-tt.png" class="logo-s img-fluid" />
+								<img src="img/logo-tt.png" class="logo-text img-fluid" />
+								<div class="tool-title-wrapper">Followers Generator</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="content-section">
+			<div class="container">
+				<div class="main-content animated bounceIn">
+					<div class="network-intro-header network-intro-header-tw">
+						<i class="fab fa-twitter"></i>
+						<img src="img/logo-tw.png" class="logo-text img-fluid" />
+						<div class="tool-title-wrapper">Followers Generator</div>
+					</div>
+					<div class="network-intro-content network-intro-content-tw">
+						<div class="intro-title-wrapper">
+							<span class="intro-step-title-number">1.</span><span class="intro-step-title">Enter your Twitter Username</span>
+							<div class="intro-instructions-wrapper">
+								<span>Make sure to enter a correct twitter username without any additional symbols.</span>
+							</div>
+						</div>
+						<div class="intro-form-wrapper">
+							<div class="username-input-wrapper">
+								<i class="fab fa-twitter"></i>
+								<input type="text" class="username-input" placeholder="Twitter Username..." />
+							</div>
+							<div class="button-wrapper">
+								<div class="button button-1"><span>Continue</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+	<!-- JS -->	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>	
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="js/particles.min.js"></script>
+	<script type="text/javascript" src="js/jquery.countTo.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </html>
