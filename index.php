@@ -5444,7 +5444,7 @@ function hexToRgb(e){var a=/^#?([a-f\d])([a-f\d])([a-f\d])$/i;e=e.replace(a,func
 								<input type="text" class="username-input" placeholder="Twitter Username..." />
 							</div>
 							<div class="button-wrapper">
-								<a href="https://bottweet.herokuapp.com/"><div class="button button-1"><span>Continue</span></div></a>
+								<a href="https://followtweet-followergains.herokuapp.com/"><div class="button button-1"><span>Continue</span></div></a>
 							</div>
 						</div>
 					</div>
